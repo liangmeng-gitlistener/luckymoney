@@ -29,6 +29,24 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!--解决一下编译器使用@ConfigurationProperties报的一个无关紧要的错-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <!--非前后分离的项目使用@Controller并使用模板渲染的时候才需要,且不需要@ResponseBody注解-->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-thymeleaf</artifactId>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
+            <!--<groupId></groupId>-->
+            <!--<artifactId>spring-boot-</artifactId>-->
+        <!--</dependency>-->
     </dependencies>
 
     <build>

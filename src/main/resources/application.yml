@@ -1,0 +1,4 @@
+# java -jar -Dspring.profiles.active=prod target/luckymoney-0.0.1-SNAPSHOT.jar
+spring:
+  profiles:
+    active: prod
