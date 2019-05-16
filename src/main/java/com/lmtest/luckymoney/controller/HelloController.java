@@ -1,5 +1,6 @@
-package com.lmtest.luckymoney;
+package com.lmtest.luckymoney.controller;
 
+import com.lmtest.luckymoney.config.LimitConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

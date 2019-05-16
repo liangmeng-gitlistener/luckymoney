@@ -1,4 +1,4 @@
-package com.lmtest.luckymoney;
+package com.lmtest.luckymoney.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
